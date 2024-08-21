@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer html</title>
+</head>
+<body>
+    <h1>Hola es mi primer html</h1>
+
+    <!-- Encabezados -->
+
+    <h1>Hola soy un h1</h1>
+    <h2>Hola soy un h2</h2>
+    <h3>Hola soy un h3</h3>
+    <h4>Hola soy un h4</h4>
+    <h5>Hola soy un h5</h5>
+
+    <!-- Divs -->
+    <div>
+        <h2>¿Qué es Lorem Ipsum?</h2>
+        <p>
+            <b>Lorem ipsum</b> <strong>es un texto</strong> de marcador de posición
+            comúnmente utilizado en la industria del diseño 
+            y la impresión.<br /> <em>Es un texto de aspecto latino que 
+                se viene utilizando desde el siglo XVI como texto 
+                de relleno cuando el contenido <mark> final aún no está 
+                disponible</mark></em> aún no está 
+            disponible. Lorem ipsum se usa para dar una idea 
+            del diseño visual de un libro, documento o página 
+            <br/>
+            <span>sin distraerse con el contenido real.</span>
+
+        </p>
+    </div>
+
+    <!--        Propiedades: 
+    <b> y <strong>: letras en negrita.
+    <em>: para cambiar de letras minusculas.
+    <mark>: para resaltar con color un texto.
+    <span>: para resaltar u destacar un texto.
+    -->
+
+    <!-- enlaces -->
+
+    <div>
+        <nav>
+            <a href="https://www.google.com" target="_blank">Ir a google</a>
+            <br/>
+            <a href="http://www.youtube.com" target="_blank">Ir a youtube</a>
+        </nav>
+    </div>
+
+    <!-- listas -->
+
+    <div>
+        <!-- Listas ordenadas -->
+        <ol>
+            <li>soy un elemento 1</li>
+            <li>soy un elemento 2</li>
+            <li>soy un elemento 3</li>
+            <li>soy un elemento 4</li>
+        </ol>
+
+        <!-- Listas desordenadas -->
+
+        <ul>
+            <li>soy un elemento 1</li>
+            <li>soy un elemento 2</li>
+            <li>soy un elemento 3</li>
+            <li>soy un elemento 4</li>
+        </ul>
+        
+    </div>
+
+    <div>
+         <!-- elementos multimendia -->
+    <div>
+        <br/>
+        <!-- imagen -->
+        <img 
+            src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+            alt="Es una imagen"
+            width="400px"
+            height="200px"/>
+        <br/>
+        <!-- video -->
+        <video 
+        src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+        width="400px"
+        height="200px"
+        controls></video>
+        <br/>
+        <!-- audio -->
+        <audio 
+        src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+        controls
+        ></audio>
+    </div>
+
+    <!-- Tablas -->
+
+    <div>
+        <table>
+            <!--  
+            <table>: es para generar una tabla.
+            <thead>: es para el encabezado de la tabla.
+            <tr>: es para generar filas en la tabla. 
+            <th>: es para generar columnas en el html.
+            <tbody>: es para llenar de informacion las tablas, 
+                simultaneamente generamos los <tr> y <th>.
+            <tfoot>: es para general la ultima fila de la tabla,
+                (los valores finaes),
+                simultaneamente generamos los <tr> y <th>.
+            -->
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>Fila 1, celda 1</td>
+                    <td>Fila 1, celda 2</td>
+                    <td>Fila 1, celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 2, celda 1</td>
+                    <td>Fila 2, celda 2</td>
+                    <td>Fila 2, celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 3, celda 1</td>
+                    <td>Fila 3, celda 2</td>
+                    <td>Fila 3, celda 3</td>
+                </tr>
+            </tbody>
+    
+            <tfoot>
+                <tr>
+                    <td>Total 1</td>
+                    <td>Total 2</td>
+                    <td>Total 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <!-- Formularios -->
+
+    <div>
+        <form action="">
+
+            <div>
+                <label>Email: </label>
+                <input type="email" placeholder="example@example.com"/>
+            </div>
+            
+            <div>
+                <label>Nombre: </label>
+                <input type="text" placeholder="Ingrese su nombre"/>
+            </div>
+            
+            <div>
+                <label>Apellido: </label>
+                <input type="text" placeholder="Ingrese su apellido"/>
+            </div>
+            
+            <div>
+                <label>Edad: </label>
+                <input type="number" placeholder="Ingrese su edad"/>
+            </div>
+            <!-- <input type="date"> -->
+            <div>
+                <label for="">informacion extra</label>
+                <textarea placeholder="informacion mas detallada"></textarea>
+            </div>
+            
+            <button type="submit">Enviar formulario</button>
+        </form>
+    </div>
+    
+</body>
+</html>
