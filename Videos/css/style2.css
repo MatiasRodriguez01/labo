@@ -1,0 +1,27 @@
+.primero{
+    color: red;
+}
+
+#segundo{
+    color: blue;
+}
+
+.tercero{
+    color: grey
+}
+
+/* 
+1px
+1rem = 16px
+vh = alto de la pagina
+vw = ancho de la pagina
+*/
+
+.parrafo{
+    color: rgb(191, 56, 56);
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 2rem;
+    line-height: 10rem;
+}

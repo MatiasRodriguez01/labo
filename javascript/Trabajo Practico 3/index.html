@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue</title>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+
+  <body>
+
+    <h1>7. INTRODUCCION AL DOM</h1>
+    <section>
+      <h2>Ejercicio 1:</h2>
+      <p>Este es el primer parrafo</p>
+      <p>Este es el segundo parrafo</p>
+      <p>Este es el tercer parrafo</p>
+
+      <button  id="buttom_p" class="buttomP">Cambiar color azul</button>
+    </section>
+    <section>
+      <h2>Ejercicio 2: Formulario con alerta</h2>
+
+    <div>
+      <label>Ingrese un texto:</label>
+      <input id="input_Text" type="text">
+      <button id="buttom_text">Mostrar Alerta</button>
+    </div>
+    </section>
+
+    <h1>8. EVENTO DOM</h1>
+    <section>
+      <h2>Ejercicio 1: Lista con elementos</h2>
+
+      <ul id="lista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li> 
+      </ul>
+    </section>
+    <section>
+      <h2>Ejercicio 2: Campo de texto y botones</h2>
+    <div>
+      <input id="input" placeholder="Ingresa algo" stype="text">
+      <button id="campoDes">Desahibilitar Campo</button>
+      <button id="campoHab">Habilitar Campo</button>
+    </div>
+    </section>
+
+    <h1>9. LOCALSTORAGE</h1>
+    <section>
+      <h2>Ejercicio 1</h2>
+
+      <div>
+        <label>Correo Electronico: </label>
+        <input id="inputEmail" type="email" placeholder="example@gmail.com">
+        <button id="buttomSaveEmail">Guardar Correo</button>
+      </div>
+      <div>
+        <p id="emailSaved" type="email" placeholder="">No hay Email guardado</p>
+      </div>
+      <button id="buttomDeleteEmail">Eliminar Correo Guardado</button>
+    </section>
+
+
+    <!-- <div id="app"></div> -->
+    <script type="module" src="/src/main.js"></script>
+
+  </body>
+</html>
