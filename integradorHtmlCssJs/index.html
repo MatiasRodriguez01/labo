@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- FUENTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <!-- ICONS -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+  <!-- =================Header=============== -->
+  <header>
+    <!-- contenedor principal y dentro tendra el contenido de header -->
+    <div class="container__principalHeader"> 
+      <!-- Contenedor header tendra 2 div dentro -->
+      <div class="container__contentHeader">
+        <!-- Primer div tendra un input y un boton -->
+        <div class="headerSearch">
+          <input class="inputHeader" id="inputHeader" placeholder="Ingrese un elemento" type="text" />
+          <button id="buttonSearch" class="buttonSearch">Buscar
+            <span class="material-symbols-outlined">
+              search
+            </span>
+          </button>
+        </div>
+        <!-- El segundo tendra un boton  para agregar un elemento a la pagina -->
+        <div>
+          <button id="buttonAddElement" class="header__buttonAdd">Agregar Elemento
+            <span class="material-symbols-outlined">
+              library_add
+            </span>
+
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+  <!-- =================== MAIN ===================-->
+
+  <main>
+    <!-- El div container view contendra un titulo y una lista -->
+    <div class="container_view">
+      <aside class="listAside">
+        <h2>Categorias
+          <span class="material-symbols-outlined">
+            filter_list
+          </span>
+        </h2>
+        
+        <ul id="listFilter">
+      </aside>
+      <div class="store" id="storeContainer"></div>
+    </div>
+
+    <!-- ============== POPUP================== -->
+
+     <!-- con este container principal tendremos todo el contenido del popUp -->
+     <div class="popUpContainer__principal" id="modalPopUp">
+        <!-- tenemos este container que contiene 3 div -->
+        <div class="popUpContainer">
+          <!-- titulo -->
+          <div class="containerTitlePopUp">
+            <h2>Agregar o modificar un producto</h2>
+          </div>
+          <!-- inputs y selection -->
+          <div class="containerInputs_popUp">
+            <input id="nombre" type="text" placeholder="Ingrese un nombre">
+            <input id="img" type="text" placeholder="Ingrese una imagen">
+            <input id="precio" type="number" placeholder="Ingrese el precio">
+            <select id="categoria">  <!-- select, con opciones dentro -->
+              <option>Seleccione una categoria</option>
+              <option>Gaseosas</option>
+              <option>Hamburguesas</option>
+              <option>Papas</option>
+            </select>
+          </div>
+          <!-- botones -->
+          <div class="containerButtonsPopUp">
+            <button class="buttonPopUp cancel" id="cancelButton">Cancelar</button>
+            <button class="buttonPopUp accept" 
+            id="acceptButton" >Aceptar</button>
+            <button class="buttonPopUp delete" id="deleteButton">Eliminar</button>
+          </div>
+        </div>
+     </div>
+
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
