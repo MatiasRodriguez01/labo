@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 1</title>
+
+    <style>
+        
+        table{
+            border: 1px solid black;
+            th, td{
+                border: 1px solid black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- Encabezado -->
+    <header id="0">    
+        <h1>Encabezado Principal</h1>
+        <ul>
+            <nav>
+                <li><a href="#1">Ir a Estructura</a></li>
+                <li><a href="#5">Ir a multimendia</a></li>
+                <li><a href="#7">Ir a Formulario</a></li>
+            </nav>
+        </ul>
+    </header>
+    
+    <!--  Contenido -->
+    <main>
+        <!-- 4.1 -->
+        <div id="1">
+            <h2>1. Estructura Básica del Documento HTML</h2>
+            <p>Descripción de la estructura.</p>
+            <p>Información Complementaria.</p>
+            <p>2024 Trabajo Práctico de HTML</p>
+        </div>
+
+        <!-- 4.2 -->
+        <div id="2">
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <p><b>Este es un texto en negrita.</b></p>
+            <p><em>Este es un texto en cursiva.</em></p>
+            <p><u>es un texto en subrayado.</u></p>
+        </div>
+
+        <!-- 4.3 -->
+        <div id="3">
+            <h2>3. Divisiones y Agrupacion de Contenido</h2>
+            <section>
+                <h4>Sección 1</h4>
+                <div>Contenido de la primera seccion agrupada en un div.</div>
+            </section>
+
+            <section>
+                <h4>Sección 2</h4>
+                <div>contenido de la segunda seccion agrupada en un div</div>
+            </section>
+        </div>
+
+        <!-- 4.4 -->
+        <div id="4">
+            <h2>4. Enlaces y Listas</h2>
+            <nav>
+                <p>Visita nuestro <a href="#0">sitio web</a> por más informacion</p>
+            </nav>
+
+            <p>Enlacies internos:</p>
+            <ul>
+                <nav>
+                    <li><a href="#1">Ir a Estructura</a></li>
+                    <li><a href="#5">Ir a multimendia</a></li>
+                    <li><a href="#7">Ir a Formulario</a></li>
+                </nav>
+            </ul>
+
+            <p>Lista desordenadas:</p>
+            <ul>
+                <li>Primer item de una lista desordenada</li>
+                <li>Segundo item de una lista desordenada</li>
+            </ul>
+
+            <p>Lista desordenadas:</p>
+            <ol>
+                <li>Primer item de una lista ordenada</li>
+                <li>Segundo item de una lista ordenada</li>
+            </ol>
+        </div>
+
+        <!-- 4.5 -->
+        <div id= "5">
+            <h2>5. Elementos Multimendia</h2>
+            <!-- imagen -->
+            <img 
+            src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+            alt="Es una imagen"
+            width="400px"
+            height="200px"/>
+
+            <!-- video -->
+            <video 
+            src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+            width="400px"
+            height="200px"
+            controls></video>
+
+            <!-- audio -->
+            <audio 
+            src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+            controls
+            ></audio>
+        </div>
+
+        <!--  4.6  -->
+        <div id= "6">
+            <h2>6. Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Dato 1
+                        </td>
+                        <td>
+                            Dato 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--  4.7 -->
+        <div id= "7">
+            <h2>7. Formularios</h2>
+            <form action="">
+                <!-- Nombre: -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" pattern="[A-Za-z\s]{2,}"  required/>
+
+                <!-- Apellido: -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required/>
+
+                <!-- Mensaje: -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <!-- Boton -->
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+    
+    <!--  Pie de pagina  -->
+    <footer>
+        <p>Pie de pagina</p>
+        <p>21/8/2024</p>
+    </footer>
+
+</body>
+
+</html>

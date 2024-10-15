@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    border: 2px solid grey;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+/* .Ejercicio2{
+    display: none;
+} */
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    position: relative;
+}
+
+.cubo {
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(211, 62, 62);
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    position: absolute;
+    transform: translate(0px, 0px);
+}
+
+
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+
+}

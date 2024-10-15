@@ -1,0 +1,63 @@
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.caja {
+    width: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilos para el título de ingreso */
+.ingreso {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los campos de usuario y contraseña */
+.usuario, .contraseña {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de ingresar */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

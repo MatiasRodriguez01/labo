@@ -1,0 +1,80 @@
+/* General styles for header and footer */
+header, footer {
+    background: rgb(19, 16, 39);
+    color: white;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    height: 100vh;
+}
+
+/* Image container styles */
+.imagen {
+    width: 345px;
+    border: 3px solid grey;
+    display: flex;
+    border-radius: 10px;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* Login form styles */
+.login {
+    width: 300px;
+    border: 3px solid grey;
+    background: rgb(91, 91, 136);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form elements styles */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.usuario, .contraseña, .inputUsuario, .inputContraseña, .boton {
+    margin: 10px;
+    padding: 10px;
+}
+
+.inputUsuario, .inputContraseña {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 4px;
+}
+
+.boton {
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+}
