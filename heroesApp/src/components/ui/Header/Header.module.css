@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+    .navbar-text {
+        font-size: 12px; /* Tamaño reducido en pantallas pequeñas */
+    }
+}

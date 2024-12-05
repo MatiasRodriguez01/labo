@@ -15,3 +15,9 @@
     height: 90vh;
     gap: 2vh;
 }
+
+@media screen and (max-width: 1000px) {
+    .containerSearch {
+        flex-direction: column;
+    }
+}
