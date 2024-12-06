@@ -13,3 +13,15 @@
 .containerImgHeroPage img {
     border-radius: 0.4rem;
 }
+
+@media screen and (max-width: 800px) {
+    .containerHeroPage {
+        padding: 0.4rem;
+        flex-direction: column;
+    }
+    .containerImgHeroPage img {
+        width: 100%;
+        height: 68vh;
+    }
+
+}

@@ -18,7 +18,7 @@ export const CardHero: FC<ICardHero> = ({ hero }) => {
     };
 
     return (
-        <Card className={styles.card} onClick={handleNavigateHero} style={{ width: '100%' }}>
+        <Card className={styles.card} onClick={handleNavigateHero} >
             <Card.Img variant="top" src={`/assets/heroes/${hero.id}.jpg`} />
             <Card.Body>
                 <Card.Title>{hero.superhero}</Card.Title>
